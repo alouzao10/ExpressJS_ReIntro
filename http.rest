@@ -1,0 +1,19 @@
+// Creating the Requests for the server 
+GET http://localhost:5000
+
+
+### 
+
+GET http://localhost:5000/products/2
+
+
+###
+
+POST http://localhost:5000/add
+Content-Type: application/json
+
+{
+    "id": 5,
+    "name": "Cereal",
+    "cost": 4.99
+}
